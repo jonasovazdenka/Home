@@ -1,0 +1,102 @@
+* {
+  background-color: #001233;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+#avatar {
+  border-radius: 40%;
+  margin: 15px;
+  margin-top: 30px;
+  width: 20%;
+  background: linear-gradient(
+    90deg,
+    rgba(205, 180, 219, 1) 0%,
+    rgba(162, 210, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+#hello {
+  margin-left: 80px;
+  margin-top: -60px;
+  font-size: 17px;
+}
+
+#full {
+  padding-left: 5px;
+}
+
+#balance,
+#spending {
+  background-color: #002855;
+  border-radius: 20%;
+  width: 125px;
+  height: 70px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 60px;
+  cursor: pointer;
+}
+nav ul {
+  padding-left: 0px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 35px;
+}
+#spending {
+  margin-left: 135px;
+  margin-top: -100px;
+}
+
+#salary,
+#private,
+#family {
+  height: 100px;
+  cursor: pointer;
+  border-radius: 30px 30px 0 0;
+  height: 200px;
+  padding: 0 0 0 17px;
+  padding-top: 20px;
+  border: 3.5px solid #001233;
+  font-weight: bold;
+  font-size: 15px;
+}
+#salary {
+  margin-top: 0px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 147, 15, 1) 0%,
+    rgba(252, 188, 93, 1) 78%
+  );
+}
+
+#private {
+  margin-top: -170px;
+  height: 100px;
+  background: linear-gradient(
+    278deg,
+    rgba(255, 196, 214, 1) 0%,
+    rgba(60, 9, 108, 1) 90%
+  );
+}
+
+#family {
+  margin-top: -70px;
+  height: 120px;
+  border-radius: 30px;
+  background: -webkit-radial-gradient(bottom right, #f7c59f, #ff99ac, #f7aef8);
+}
+
+#add {
+  padding: 20px;
+  width: 255px;
+  border: none;
+  background-color: #002855;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
